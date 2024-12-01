@@ -6,10 +6,10 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen px-6 md:px-[220px] pt-8 pb-8 md:pt-12">
+    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
       <div className="max-w-[1000px] mx-auto">
         <Header />
-        <main className="mt-[30vh]">
+        <main className="mt-[45vh]">
           <Introduction />
           <WorksSection />
           <PersonalSection />
