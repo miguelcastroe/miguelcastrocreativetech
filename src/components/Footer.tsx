@@ -19,7 +19,6 @@ interface SpotifyTrack {
 
 const Footer = () => {
   const [currentTrack, setCurrentTrack] = useState<SpotifyTrack | null>(null);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchCurrentTrack = async () => {
@@ -37,10 +36,8 @@ const Footer = () => {
         if (data && (!currentTrack || data.is_playing || !currentTrack.item)) {
           setCurrentTrack(data);
         }
-        setError(null);
       } catch (err) {
         console.error('Error fetching current track:', err);
-        setError('Failed to fetch current track');
       }
     };
 
