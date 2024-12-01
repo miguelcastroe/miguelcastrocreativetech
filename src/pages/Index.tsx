@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen px-6 md:px-[220px] pt-8 pb-8 md:pt-12">
+    <div className="min-h-screen px-6 md:px-[220px] pt-26 pb-8 md:pt-32">
       <div className="max-w-[1000px] mx-auto">
         <Header />
         <main>
