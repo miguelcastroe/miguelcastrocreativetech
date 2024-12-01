@@ -27,13 +27,14 @@ const Footer = () => {
           method: 'GET'
         });
         
-        if (error) throw error;
-        
-        if (data) {
-          setCurrentTrack(data);
+        if (error) {
+          console.error('Error fetching current track:', error);
+          return;
         }
+        
+        setCurrentTrack(data);
       } catch (err) {
-        console.error('Error fetching current track:', err);
+        console.error('Error in Spotify fetch:', err);
       }
     };
 
