@@ -9,7 +9,7 @@ const Index = () => {
     <div className="min-h-screen px-6 md:px-[220px] py-8 md:p-18">
       <div className="max-w-[1000px] mx-auto">
         <Header />
-        <main className="max-w-4xl">
+        <main>
           <Introduction />
           <WorksSection />
           <PersonalSection />
