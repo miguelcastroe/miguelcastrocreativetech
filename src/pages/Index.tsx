@@ -13,7 +13,7 @@ const Index = () => {
           <Introduction />
           <WorksSection />
           <PersonalSection />
-          <div className="mt-26">
+          <div className="mt-[120px]">
             <Footer />
           </div>
         </main>

@@ -29,7 +29,7 @@ const Footer = () => {
         
         if (error) throw error;
         
-        if (data && (!currentTrack || data.is_playing || !currentTrack.item)) {
+        if (data) {
           setCurrentTrack(data);
         }
       } catch (err) {
@@ -41,10 +41,10 @@ const Footer = () => {
     const interval = setInterval(fetchCurrentTrack, 30000);
 
     return () => clearInterval(interval);
-  }, [currentTrack]);
+  }, []);
 
   return (
-    <footer className="relative mt-26 -mx-6 md:-mx-[220px] px-6 md:px-[220px] pt-12 border-t border-[#e5e5e5] border-opacity-50">
+    <footer className="relative -mx-6 md:-mx-[220px] px-6 md:px-[220px] pt-12 border-t border-[#e5e5e5] border-opacity-50">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-tiny">
         <div className="relative">
           <h3 className="uppercase mb-2 text-[#a1a1aa] flex items-center gap-2">
@@ -64,19 +64,19 @@ const Footer = () => {
                 <div className="flex flex-col">
                   <a 
                     href={currentTrack.item.external_urls.spotify} 
-                    className="block"
+                    className="block hover:text-[#ff4f00]"
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
                     {currentTrack.item.name} - {currentTrack.item.artists[0].name}
                   </a>
                   {!currentTrack.is_playing && (
-                    <span className="text-gray-500">Last played</span>
+                    <span className="text-[#a1a1aa]">Last played</span>
                   )}
                 </div>
               </div>
             ) : (
-              <span className="text-gray-500">Not playing</span>
+              <span className="text-[#a1a1aa]">Not playing</span>
             )}
           </div>
         </div>
