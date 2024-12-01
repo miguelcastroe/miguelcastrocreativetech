@@ -24,7 +24,9 @@ const Footer = () => {
   useEffect(() => {
     const fetchCurrentTrack = async () => {
       try {
-        const { data, error } = await supabase.functions.invoke('spotify');
+        const { data, error } = await supabase.functions.invoke('spotify', {
+          method: 'GET'
+        });
         
         if (error) throw error;
         

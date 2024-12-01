@@ -53,8 +53,11 @@ async function getCurrentlyPlaying(access_token: string) {
 }
 
 Deno.serve(async (req) => {
+  // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
-    return new Response(null, { headers: corsHeaders })
+    return new Response(null, { 
+      headers: corsHeaders
+    })
   }
 
   try {
