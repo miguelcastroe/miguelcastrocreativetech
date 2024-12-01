@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
-    <div className="min-h-screen px-6 py-8 md:p-18">
+    <div className="min-h-screen px-6 md:px-[220px] py-8 md:p-18">
       <header className="flex justify-between items-center mb-26">
         <div className="text-sm">M C</div>
         <nav className="flex gap-6 text-sm">
