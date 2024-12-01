@@ -14,6 +14,8 @@ const Header = () => {
       <nav className="flex gap-6 text-sm">
         <Link to="#work">WORK</Link>
         <Link to="#about">ABOUT</Link>
+        <Link to="https://linkedin.com/in/miguelcastro" target="_blank">IN</Link>
+        <Link to="https://instagram.com/miguelcastro" target="_blank">IG</Link>
       </nav>
     </header>
   );
