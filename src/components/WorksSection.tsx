@@ -2,8 +2,8 @@ const WorksSection = () => {
   return (
     <section className="mb-26">
       <h2 className="text-xs uppercase mb-8">Selected Works</h2>
-      <div>
-        <div className="flex flex-col border-t border-[#a1a1aa] [border-top-width:0.5px]">
+      <div className="border-t border-[#a1a1aa] [border-top-width:0.5px]">
+        <div className="flex flex-col">
           <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px]">
             <span>MouthPad^</span>
             <span className="mx-2">•</span>
