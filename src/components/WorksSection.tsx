@@ -13,7 +13,7 @@ const WorksSection = () => {
             <span className="mx-2">•</span>
             <span>PE/US</span>
           </div>
-          <ArrowRight className="w-4 h-4" />
+          <ArrowRight className="w-3 h-3 text-[#a1a1aa]" />
         </div>
         <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center">
           <div>
@@ -23,7 +23,7 @@ const WorksSection = () => {
             <span className="mx-2">•</span>
             <span>PE/US</span>
           </div>
-          <ArrowRight className="w-4 h-4" />
+          <ArrowRight className="w-3 h-3 text-[#a1a1aa]" />
         </div>
         <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center">
           <div>
@@ -33,7 +33,7 @@ const WorksSection = () => {
             <span className="mx-2">•</span>
             <span>PE</span>
           </div>
-          <ArrowRight className="w-4 h-4" />
+          <ArrowRight className="w-3 h-3 text-[#a1a1aa]" />
         </div>
       </div>
     </section>
