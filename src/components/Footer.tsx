@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
         <div className="text-right">
           <h3 className="uppercase mb-2 text-[#a1a1aa]">Contact</h3>
-          <div className="space-y-1">
+          <div className="space-y-1 text-left">
             <a href="mailto:miguel@miguelcastro.cc" className="block">miguel@miguelcastro.cc</a>
             <a href="tel:+51936646047" className="block">+51 936646047</a>
           </div>
