@@ -2,8 +2,8 @@ const PersonalSection = () => {
   return (
     <section className="mb-26">
       <h2 className="text-xs uppercase mb-8">Personal Endeavors</h2>
-      <div className="border-t border-[#a1a1aa]">
-        <div className="flex flex-col">
+      <div>
+        <div className="flex flex-col border-t border-[#a1a1aa]">
           <div className="py-4 border-t border-[#a1a1aa]">
             <span>AI Organization</span>
             <span className="mx-2">•</span>
