@@ -6,6 +6,13 @@ interface SpotifyTrack {
     name: string;
     artists: Array<{ name: string }>;
     external_urls: { spotify: string };
+    album?: {
+      images: Array<{
+        url: string;
+        height: number;
+        width: number;
+      }>;
+    };
   };
   is_playing: boolean;
 }
@@ -51,15 +58,24 @@ const Footer = () => {
           </h3>
           <div className="space-y-1">
             {currentTrack?.item ? (
-              <a 
-                href={currentTrack.item.external_urls.spotify} 
-                className="block"
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                {currentTrack.item.name} - {currentTrack.item.artists[0].name}
-                {!currentTrack.is_playing && <span className="text-gray-500"> (Last played)</span>}
-              </a>
+              <div className="flex items-center gap-3">
+                {currentTrack.item.album?.images?.[2]?.url && (
+                  <img 
+                    src={currentTrack.item.album.images[2].url} 
+                    alt={`${currentTrack.item.name} album art`}
+                    className="w-10 h-10 rounded"
+                  />
+                )}
+                <a 
+                  href={currentTrack.item.external_urls.spotify} 
+                  className="block"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  {currentTrack.item.name} - {currentTrack.item.artists[0].name}
+                  {!currentTrack.is_playing && <span className="text-gray-500"> (Last played)</span>}
+                </a>
+              </div>
             ) : (
               <span className="text-gray-500">Not playing</span>
             )}
