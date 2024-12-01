@@ -7,7 +7,7 @@ const Header = () => {
         <img 
           src="https://ouauehtpqfvldbvsihpu.supabase.co/storage/v1/object/public/GIF/miguelcastro_logo.svg" 
           alt="Miguel Castro Logo"
-          className="h-4 w-auto"
+          className="w-8 h-auto"
         />
       </div>
       <nav className="flex gap-6 text-sm">
