@@ -13,7 +13,9 @@ const Index = () => {
           <Introduction />
           <WorksSection />
           <PersonalSection />
-          <Footer />
+          <div className="mt-26">
+            <Footer />
+          </div>
         </main>
       </div>
     </div>
