@@ -9,9 +9,11 @@ const WorksSection = () => {
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
             <span>Vanishing Emails</span>
+            <span className="float-right">PE/US</span>
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
             <span>Behind The Fear</span>
+            <span className="float-right">PE</span>
           </div>
         </div>
         <div>
