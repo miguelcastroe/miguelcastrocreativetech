@@ -20,6 +20,7 @@ export default {
     extend: {
       fontFamily: {
         'pitch': ['Pitch Sans', 'monospace'],
+        'ibm': ['IBM Plex Mono', 'monospace'],
       },
       fontSize: {
         'tiny': '0.65rem',
