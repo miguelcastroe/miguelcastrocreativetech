@@ -20,7 +20,14 @@ const Footer = () => {
         const { data, error } = await supabase.functions.invoke('spotify');
         
         if (error) throw error;
-        setCurrentTrack(data);
+        
+        // Only update if we get new data and either:
+        // 1. We don't have any track data yet
+        // 2. The new track is playing
+        // 3. We have no previous track data
+        if (data && (!currentTrack || data.is_playing || !currentTrack.item)) {
+          setCurrentTrack(data);
+        }
         setError(null);
       } catch (err) {
         console.error('Error fetching current track:', err);
@@ -32,7 +39,7 @@ const Footer = () => {
     const interval = setInterval(fetchCurrentTrack, 30000); // Update every 30 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [currentTrack]);
 
   return (
     <footer className="relative mt-26 -mx-6 md:-mx-[220px] px-6 md:px-[220px] pt-26">
@@ -51,6 +58,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 {currentTrack.item.name} - {currentTrack.item.artists[0].name}
+                {!currentTrack.is_playing && <span className="text-gray-500"> (Last played)</span>}
               </a>
             ) : (
               <span className="text-gray-500">Not playing</span>
