@@ -6,15 +6,12 @@ const PersonalSection = () => {
         <div>
           <div className="border-t border-[#a1a1aa] py-4">
             <span>AI Organization</span>
-            <span className="float-right">PE</span>
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
             <span>Temples Of Knowledge</span>
-            <span className="float-right">PE</span>
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
             <span>Peruvian Public Domain</span>
-            <span className="float-right">PE</span>
           </div>
         </div>
         <div>
@@ -30,13 +27,13 @@ const PersonalSection = () => {
         </div>
         <div>
           <div className="border-t border-[#a1a1aa] py-4">
-            <span></span>
+            <span>PE</span>
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
-            <span></span>
+            <span>PE</span>
           </div>
           <div className="border-t border-[#a1a1aa] py-4">
-            <span></span>
+            <span>PE</span>
           </div>
         </div>
       </div>
