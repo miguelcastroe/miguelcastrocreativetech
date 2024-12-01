@@ -49,8 +49,17 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
         <div className="relative">
           <h3 className="uppercase mb-2 text-[#a1a1aa] flex items-center gap-2">
-            Listening Live
-            <span className={`w-2 h-2 rounded-full ${currentTrack?.is_playing ? 'bg-green-500 animate-[pulse_2s_ease-in-out_infinite]' : 'bg-gray-400'}`}></span>
+            {currentTrack?.item ? (
+              <>
+                {currentTrack.is_playing ? "Listening Live" : "Last Played"}
+                <span className={`w-2 h-2 rounded-full ${currentTrack.is_playing ? 'bg-green-500 animate-[pulse_2s_ease-in-out_infinite]' : 'bg-gray-400'}`}></span>
+              </>
+            ) : (
+              <>
+                Listening Live
+                <span className="w-2 h-2 rounded-full bg-gray-400"></span>
+              </>
+            )}
           </h3>
           <div className="space-y-1">
             {currentTrack?.item ? (
