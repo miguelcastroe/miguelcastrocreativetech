@@ -51,7 +51,7 @@ const Footer = () => {
           <h3 className="uppercase mb-2 text-[#a1a1aa] flex items-center gap-2">
             {currentTrack?.item ? (
               <>
-                {currentTrack.is_playing ? "Listening Live" : "Last Played"}
+                {currentTrack.is_playing ? "Listening Live" : "Listening Is Paused"}
                 <span className={`w-2 h-2 rounded-full ${currentTrack.is_playing ? 'bg-green-500 animate-[pulse_2s_ease-in-out_infinite]' : 'bg-gray-400'}`}></span>
               </>
             ) : (
