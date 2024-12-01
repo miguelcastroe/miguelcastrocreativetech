@@ -5,8 +5,8 @@ const Footer = () => {
         <div>
           <h3 className="uppercase mb-2 text-[#a1a1aa]">Listening</h3>
           <div className="space-y-1">
-            <a href="spotify:playlist/01" className="block">spotify.com/playlist/01</a>
-            <a href="spotify:playlist/02" className="block">spotify.com/playlist/02</a>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DX5trt9i14X7j" className="block">Coding Mode</a>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" className="block">Lo-Fi Beats</a>
           </div>
         </div>
         <div>
