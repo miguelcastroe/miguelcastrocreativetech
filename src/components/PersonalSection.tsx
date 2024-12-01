@@ -15,7 +15,7 @@ const PersonalSection = () => {
               <span>Peruvian Public Domain</span>
             </div>
           </div>
-          <div className="md:border-l border-[#a1a1aa]">
+          <div>
             <div className="py-4 border-t border-[#a1a1aa]">
               <span>Community</span>
             </div>
@@ -26,7 +26,7 @@ const PersonalSection = () => {
               <span>Art</span>
             </div>
           </div>
-          <div className="md:border-l border-[#a1a1aa]">
+          <div>
             <div className="py-4 border-t border-[#a1a1aa]">
               <span>PE</span>
             </div>

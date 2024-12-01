@@ -15,7 +15,7 @@ const WorksSection = () => {
               <span>Behind The Fear</span>
             </div>
           </div>
-          <div className="md:border-l border-[#a1a1aa]">
+          <div>
             <div className="py-4 border-t border-[#a1a1aa]">
               <span>Augmental</span>
             </div>
@@ -26,7 +26,7 @@ const WorksSection = () => {
               <span>Defense of Women's Rights</span>
             </div>
           </div>
-          <div className="md:border-l border-[#a1a1aa]">
+          <div>
             <div className="py-4 border-t border-[#a1a1aa]">
               <span>PE/US</span>
             </div>
