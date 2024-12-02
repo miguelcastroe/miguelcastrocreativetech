@@ -3,7 +3,7 @@ import ArtifactCarousel from './ArtifactCarousel';
 
 const ProjectHeader = () => {
   return (
-    <div className="mb-32">
+    <div className="mb-32 animate-fade-in">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
         <div className="order-2 md:order-1">
           <span className="text-xs uppercase text-[#a1a1aa] mb-4 block">[case study]</span>

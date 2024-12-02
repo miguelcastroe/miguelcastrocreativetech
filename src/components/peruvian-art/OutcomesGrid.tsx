@@ -2,7 +2,7 @@ import React from 'react';
 
 const OutcomesGrid = () => {
   return (
-    <section className="mb-32">
+    <section className="mb-32 animate-fade-in">
       <h2 className="text-xs uppercase mb-12 text-[#a1a1aa]">Expected Outcomes</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-[#F6F6F7] p-8 rounded-lg">

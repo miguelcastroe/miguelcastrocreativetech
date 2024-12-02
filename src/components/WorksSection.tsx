@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 const WorksSection = () => {
   return (
-    <section className="mb-18">
+    <section className="mb-18 animate-fade-in">
       <h2 className="text-xs uppercase mb-8 text-[#a1a1aa]">Selected Works</h2>
       <div className="flex flex-col">
         <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group cursor-pointer">

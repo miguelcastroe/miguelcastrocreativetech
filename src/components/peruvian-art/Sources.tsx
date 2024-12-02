@@ -36,7 +36,7 @@ const Sources = () => {
   ];
 
   return (
-    <div className="mb-32">
+    <div className="mb-32 animate-fade-in">
       <h2 className="text-xs mb-8 text-[#a1a1aa] uppercase">SOURCES</h2>
       <Accordion type="single" collapsible>
         <AccordionItem value="sources">

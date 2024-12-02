@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <section className="mb-26">
+    <section className="mb-26 animate-fade-in">
       <p className="text-lg leading-relaxed mb-8">
         I'm Miguel Castro, a seasoned creative director based in South America, specializing in{" "}
         <a href="#" className="underline decoration-[0.75px] underline-offset-2">bridging the gap between creativity and technology</a>. With nearly two decades of experience working for major global advertising agencies, I won a{" "}
