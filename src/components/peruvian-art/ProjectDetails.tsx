@@ -21,11 +21,8 @@ const ProjectDetails = () => {
               to access high-resolution images and detailed information.
             </p>
           </section>
-        </div>
 
-        {/* Right Column */}
-        <div className="md:col-span-7 space-y-16">
-          <section className="md:mt-32">
+          <section>
             <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Solution</h2>
             <p className="text-gray-800">
               Create an interactive gallery showcasing Peruvian artifacts using the Met's API for seamless data 
@@ -33,9 +30,12 @@ const ProjectDetails = () => {
               and multilingual support, it offers an immersive, educational experience.
             </p>
           </section>
+        </div>
 
-          <section>
-            <blockquote className="text-lg italic text-gray-600 border-l-2 border-[#ff4f00] pl-6">
+        {/* Right Column */}
+        <div className="md:col-span-7">
+          <section className="mt-16">
+            <blockquote className="text-lg italic text-gray-600 border-l-[0.75px] border-[#ff4f00] pl-6">
               "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies 
               to foster preservation, education, and global appreciation of Peru's heritage."
             </blockquote>
