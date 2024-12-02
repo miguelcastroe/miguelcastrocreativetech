@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const PersonalSection = () => {
   return (
@@ -25,7 +26,7 @@ const PersonalSection = () => {
           </div>
           <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
         </div>
-        <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group cursor-pointer">
+        <Link to="/peruvian-public-domain" className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group">
           <div className="group-hover:text-[#ff4f00] transition-colors text-base md:text-base sm:text-sm xs:text-xs">
             <span>Peruvian Public Domain</span>
             <span className="mx-2">•</span>
@@ -34,7 +35,7 @@ const PersonalSection = () => {
             <span>PE</span>
           </div>
           <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
-        </div>
+        </Link>
       </div>
     </section>
   );
