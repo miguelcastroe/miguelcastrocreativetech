@@ -12,7 +12,7 @@ const PeruvianDeclassifiedArt = () => {
 
         {/* Header Section */}
         <div className="mb-16">
-          <span className="text-xs uppercase text-[#a1a1aa]">[ideation]</span>
+          <span className="text-xs uppercase text-[#a1a1aa]">[case study in short]</span>
           <h1 className="text-4xl md:text-5xl font-medium mt-4 mb-8">Peruvian Declassified Art</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
@@ -72,24 +72,36 @@ const PeruvianDeclassifiedArt = () => {
             </section>
 
             <section>
-              <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Expected Outcomes</h2>
-              <p className="text-gray-800">
-                Peruvian Declassified Art reshapes how museums and art galleries contribute to society, expanding global access 
-                to Peru's cultural heritage while enriching educational resources. It strengthens community bonds, especially for 
-                local Peruvians, by reconnecting them with their history and art. By preserving artifacts digitally and inspiring 
-                innovative approaches, it redefines cultural engagement and amplifies global appreciation of Peru's legacy.
-              </p>
+              <blockquote className="text-sm italic text-gray-600 border-l-2 border-[#ff4f00] pl-4">
+                "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies to overcome 
+                cultural access challenges, fostering preservation, education, and global appreciation of Peru's rich heritage."
+              </blockquote>
             </section>
           </div>
         </div>
 
-        {/* Quote Section */}
-        <div className="mb-16 bg-[#F6F6F7] p-8 rounded-lg">
-          <blockquote className="text-xl text-gray-800">
-            "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies to overcome 
-            cultural access challenges, fostering preservation, education, and global appreciation of Peru's rich heritage."
-          </blockquote>
-        </div>
+        {/* Outcomes Grid */}
+        <section className="mb-16">
+          <h2 className="text-xs uppercase mb-8 text-[#a1a1aa]">Expected Outcomes</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="p-6 bg-[#F6F6F7] rounded-lg">
+              <h3 className="text-sm font-medium mb-3">Global Access</h3>
+              <p className="text-sm text-gray-600">Expanding worldwide access to Peru's cultural heritage</p>
+            </div>
+            <div className="p-6 bg-[#F6F6F7] rounded-lg">
+              <h3 className="text-sm font-medium mb-3">Education</h3>
+              <p className="text-sm text-gray-600">Enriching educational resources and learning opportunities</p>
+            </div>
+            <div className="p-6 bg-[#F6F6F7] rounded-lg">
+              <h3 className="text-sm font-medium mb-3">Community</h3>
+              <p className="text-sm text-gray-600">Strengthening bonds with local Peruvian communities</p>
+            </div>
+            <div className="p-6 bg-[#F6F6F7] rounded-lg">
+              <h3 className="text-sm font-medium mb-3">Innovation</h3>
+              <p className="text-sm text-gray-600">Inspiring new approaches to cultural preservation</p>
+            </div>
+          </div>
+        </section>
 
         {/* Next Project Link */}
         <div className="border-t border-[#F1F0FB] pt-8">
