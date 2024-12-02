@@ -1,5 +1,4 @@
 import React from 'react';
-import MouthPadCarousel from './MouthPadCarousel';
 
 const MouthPadHeader = () => {
   return (
@@ -18,8 +17,15 @@ const MouthPadHeader = () => {
             <span className="text-sm px-3 py-1 bg-[#f3f3f3] rounded-full">Innovation</span>
           </div>
         </div>
-        <div className="order-1 md:order-2 max-w-xl mx-auto w-full">
-          <MouthPadCarousel />
+        <div className="order-1 md:order-2">
+          <div className="aspect-video w-full">
+            <iframe
+              src="https://player.vimeo.com/video/951744690"
+              className="w-full h-full rounded-lg"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
