@@ -55,4 +55,8 @@
   a:hover {
     @apply text-[#ff4f00];
   }
+
+  blockquote {
+    @apply border-l-[0.75px] border-[#ff4f00];
+  }
 }

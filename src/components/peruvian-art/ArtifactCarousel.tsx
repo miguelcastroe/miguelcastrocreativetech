@@ -31,33 +31,35 @@ const artifacts = [
 
 const ArtifactCarousel = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto mb-32">
+    <div className="w-full">
       <Carousel>
         <CarouselContent>
           {artifacts.map((artifact, index) => (
             <CarouselItem key={index}>
-              <Card className="border-none shadow-none">
-                <CardContent className="p-0">
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
-                    <img
-                      src={artifact.imageUrl}
-                      alt={artifact.title}
-                      className="object-cover w-full h-full"
-                    />
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
-                      <h3 className="text-white text-xl font-medium mb-1">
-                        {artifact.title}
-                      </h3>
-                      <p className="text-white/90 text-sm mb-1">
-                        {artifact.culture}
-                      </p>
-                      <p className="text-white/80 text-xs">
-                        {artifact.period}
-                      </p>
+              <div className="space-y-4">
+                <Card className="border-none shadow-none">
+                  <CardContent className="p-0">
+                    <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
+                      <img
+                        src={artifact.imageUrl}
+                        alt={artifact.title}
+                        className="object-cover w-full h-full"
+                      />
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-medium">
+                    {artifact.title}
+                  </h3>
+                  <p className="text-[#a1a1aa]">
+                    {artifact.culture}
+                  </p>
+                  <p className="text-sm text-[#a1a1aa]">
+                    {artifact.period}
+                  </p>
+                </div>
+              </div>
             </CarouselItem>
           ))}
         </CarouselContent>
