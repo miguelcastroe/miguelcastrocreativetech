@@ -8,8 +8,8 @@ const ProjectDetails = () => {
         <section>
           <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Challenge</h2>
           <p className="text-gray-800">
-            Limited access to Peru's cultural heritage in international museums, low public awareness of Peruvian art, 
-            and a lack of educational resources for teachers hinder the preservation and teaching of Peru's rich cultural legacy.
+            Limited access to Peru's cultural heritage in international museums, low awareness of Peruvian art, 
+            and insufficient educational resources hinder its preservation and teaching.
           </p>
           <img
             src="https://images.unsplash.com/photo-1518770660439-4636190af475"
@@ -21,9 +21,8 @@ const ProjectDetails = () => {
         <section>
           <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Insight</h2>
           <p className="text-gray-800">
-            Peruvian art and cultural heritage held in international institutions, such as the Metropolitan Museum of Art, 
-            are now in the public domain. This status eliminates legal and financial barriers, allowing unrestricted access 
-            to high-resolution images and detailed information.
+            Peruvian artifacts in institutions like the Met are now in the public domain, removing barriers 
+            to access high-resolution images and detailed information.
           </p>
         </section>
       </div>
@@ -33,11 +32,9 @@ const ProjectDetails = () => {
         <section>
           <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Solution</h2>
           <p className="text-gray-800">
-            Develop an advanced interactive gallery showcasing Peruvian artifacts from the Met, powered by its API for 
-            seamless data retrieval and high-resolution imagery. The process involves meticulous data handling, classification, 
-            and expert curation to go beyond a typical online exhibition. The platform features contextual annotations, 
-            engaging storytelling, and multilingual support, offering an immersive and educational experience that connects 
-            users more deeply with Peru's cultural heritage.
+            Create an interactive gallery showcasing Peruvian artifacts using the Met's API for seamless data 
+            retrieval and high-resolution imagery. With expert curation, contextual annotations, storytelling, 
+            and multilingual support, it offers an immersive, educational experience.
           </p>
           <img
             src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
@@ -48,8 +45,8 @@ const ProjectDetails = () => {
 
         <section>
           <blockquote className="text-sm italic text-gray-600 border-l-[1px] border-[#ff4f00] pl-4">
-            "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies to overcome 
-            cultural access challenges, fostering preservation, education, and global appreciation of Peru's rich heritage."
+            "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies 
+            to foster preservation, education, and global appreciation of Peru's heritage."
           </blockquote>
         </section>
       </div>
