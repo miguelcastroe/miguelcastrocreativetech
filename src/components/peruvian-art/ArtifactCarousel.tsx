@@ -13,7 +13,7 @@ const artifacts = [
     title: "Mantle Fragment",
     culture: "Paracas",
     period: "5th–3rd century BCE",
-    imageUrl: "https://images.metmuseum.org/CRDImages/ao/original/DP-13441-001.jpg"
+    imageUrl: "/lovable-uploads/ea98ca53-d9a6-4616-9b6b-77d9660c0c45.png"
   },
   {
     title: "Four-Cornered Hat",
@@ -38,7 +38,7 @@ const ArtifactCarousel = () => {
             <CarouselItem key={index}>
               <Card className="border-none shadow-none">
                 <CardContent className="p-0">
-                  <div className="relative aspect-[16/9] overflow-hidden rounded-lg">
+                  <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
                     <img
                       src={artifact.imageUrl}
                       alt={artifact.title}

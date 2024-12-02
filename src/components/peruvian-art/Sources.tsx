@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Sources = () => {
   const sources = [
@@ -31,23 +37,30 @@ const Sources = () => {
 
   return (
     <div className="mb-32">
-      <h2 className="text-xs uppercase mb-8 text-[#a1a1aa]">Sources</h2>
-      <div className="space-y-6">
-        {sources.map((source, index) => (
-          <div key={index} className="text-sm">
-            <h3 className="font-medium mb-1">{source.title}</h3>
-            <p className="text-gray-600 mb-1">{source.description}</p>
-            <a 
-              href={source.url} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-[#ff4f00] hover:text-[#cc3f00] text-xs uppercase tracking-wider"
-            >
-              Read more
-            </a>
-          </div>
-        ))}
-      </div>
+      <h2 className="text-xs mb-8 text-[#a1a1aa]">Sources</h2>
+      <Accordion type="single" collapsible>
+        <AccordionItem value="sources">
+          <AccordionTrigger className="text-sm">View all sources</AccordionTrigger>
+          <AccordionContent>
+            <div className="space-y-6">
+              {sources.map((source, index) => (
+                <div key={index} className="text-sm">
+                  <h3 className="font-medium mb-1 text-gray-800">{source.title}</h3>
+                  <p className="text-gray-600 mb-1">{source.description}</p>
+                  <a 
+                    href={source.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-gray-800 hover:text-[#ff4f00] text-sm underline"
+                  >
+                    Read more
+                  </a>
+                </div>
+              ))}
+            </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
     </div>
   );
 };
