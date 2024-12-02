@@ -37,10 +37,10 @@ const Sources = () => {
 
   return (
     <div className="mb-32">
-      <h2 className="text-xs mb-8 text-[#a1a1aa]">Sources</h2>
+      <h2 className="text-xs mb-8 text-[#a1a1aa] uppercase">SOURCES</h2>
       <Accordion type="single" collapsible>
         <AccordionItem value="sources">
-          <AccordionTrigger className="text-sm">View all sources</AccordionTrigger>
+          <AccordionTrigger className="text-sm hover:no-underline">View all sources</AccordionTrigger>
           <AccordionContent>
             <div className="space-y-6">
               {sources.map((source, index) => (
