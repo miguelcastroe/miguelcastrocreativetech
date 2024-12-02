@@ -1,10 +1,14 @@
-import { ArrowLeft, FileText } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const PeruvianDeclassifiedArt = () => {
   return (
-    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
-      <div className="max-w-[1000px] mx-auto">
+    <div className="min-h-screen">
+      <div className="px-6 md:px-[220px]">
+        <Header />
+        
         <Link to="/" className="inline-flex items-center text-sm hover:text-[#ff4f00] mb-12">
           <ArrowLeft className="w-4 h-4 mr-2" />
           Back to home
@@ -36,7 +40,7 @@ const PeruvianDeclassifiedArt = () => {
           </div>
         </div>
 
-        {/* Main Content */}
+        {/* Project Details */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-24 mb-24">
           {/* Left Column */}
           <div className="space-y-16">
@@ -46,6 +50,11 @@ const PeruvianDeclassifiedArt = () => {
                 Limited access to Peru's cultural heritage in international museums, low public awareness of Peruvian art, 
                 and a lack of educational resources for teachers hinder the preservation and teaching of Peru's rich cultural legacy.
               </p>
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                alt="Digital preservation concept"
+                className="w-full aspect-[16/9] object-cover rounded-lg mt-8"
+              />
             </section>
 
             <section>
@@ -69,10 +78,15 @@ const PeruvianDeclassifiedArt = () => {
                 engaging storytelling, and multilingual support, offering an immersive and educational experience that connects 
                 users more deeply with Peru's cultural heritage.
               </p>
+              <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                alt="Digital platform concept"
+                className="w-full aspect-[16/9] object-cover rounded-lg mt-8"
+              />
             </section>
 
             <section>
-              <blockquote className="text-sm italic text-gray-600 border-l-2 border-[#ff4f00] pl-4">
+              <blockquote className="text-sm italic text-gray-600 border-l-[1px] border-[#ff4f00] pl-4">
                 "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies to overcome 
                 cultural access challenges, fostering preservation, education, and global appreciation of Peru's rich heritage."
               </blockquote>
@@ -102,15 +116,8 @@ const PeruvianDeclassifiedArt = () => {
             </div>
           </div>
         </section>
-
-        {/* Next Project Link */}
-        <div className="border-t border-[#F1F0FB] pt-8">
-          <Link to="/" className="inline-flex items-center text-lg hover:text-[#ff4f00]">
-            <span>Next Project</span>
-            <FileText className="w-5 h-5 ml-2" />
-          </Link>
-        </div>
       </div>
+      <Footer />
     </div>
   );
 };
