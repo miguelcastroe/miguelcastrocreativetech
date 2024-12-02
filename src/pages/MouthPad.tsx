@@ -12,6 +12,14 @@ const MouthPad = () => {
         <Header />
         <div className="mt-24 md:mt-32">
           <MouthPadHeader />
+          <div className="aspect-video w-full mb-32">
+            <iframe
+              src="https://player.vimeo.com/video/951744690"
+              className="w-full h-full rounded-lg"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
           <MouthPadDetails />
           <OutcomesGrid />
           <Sources />
