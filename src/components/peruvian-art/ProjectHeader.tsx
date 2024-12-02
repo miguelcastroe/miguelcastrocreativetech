@@ -1,4 +1,5 @@
 import React from 'react';
+import ArtifactCarousel from './ArtifactCarousel';
 
 const ProjectHeader = () => {
   return (
@@ -17,12 +18,8 @@ const ProjectHeader = () => {
             <span className="text-sm px-3 py-1 bg-[#F1F0FB] rounded-full">Digital Archive</span>
           </div>
         </div>
-        <div className="order-1 md:order-2">
-          <img
-            src="https://images.unsplash.com/photo-1504893524553-b855bce32c67"
-            alt="Ancient artifacts"
-            className="w-full aspect-[4/3] object-cover rounded-lg"
-          />
+        <div className="order-1 md:order-2 max-w-xl mx-auto w-full">
+          <ArtifactCarousel />
         </div>
       </div>
     </div>

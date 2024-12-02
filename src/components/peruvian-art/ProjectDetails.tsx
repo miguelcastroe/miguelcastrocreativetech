@@ -1,10 +1,8 @@
 import React from 'react';
-import ArtifactCarousel from './ArtifactCarousel';
 
 const ProjectDetails = () => {
   return (
     <div className="mb-32">
-      <ArtifactCarousel />
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24">
         {/* Left Column */}
         <div className="md:col-span-5 space-y-16">
