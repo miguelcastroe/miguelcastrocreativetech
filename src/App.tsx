@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import PeruvianDeclassifiedArt from "./pages/PeruvianDeclassifiedArt";
+import MouthPad from "./pages/MouthPad";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/peruvian-declassified-art" element={<PeruvianDeclassifiedArt />} />
+          <Route path="/mouthpad" element={<MouthPad />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
