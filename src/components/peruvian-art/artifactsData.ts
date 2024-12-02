@@ -7,10 +7,10 @@ export interface Artifact {
 
 export const artifacts: Artifact[] = [
   {
-    title: "Mantle Fragment",
+    title: "Fragment with Feline Motif",
     culture: "Paracas",
     period: "5th–3rd century BCE",
-    imageUrl: "/lovable-uploads/ea98ca53-d9a6-4616-9b6b-77d9660c0c45.png"
+    imageUrl: "/lovable-uploads/6be91619-2241-446a-8c4b-2f4245eec42b.png"
   },
   {
     title: "Four-Cornered Hat",
