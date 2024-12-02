@@ -7,11 +7,13 @@ import OutcomesGrid from "@/components/peruvian-art/OutcomesGrid";
 const PeruvianDeclassifiedArt = () => {
   return (
     <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
-      <div className="max-w-[1000px] mx-auto">
+      <div className="max-w-[1400px] mx-auto">
         <Header />
-        <ProjectHeader />
-        <ProjectDetails />
-        <OutcomesGrid />
+        <div className="mt-24 md:mt-32">
+          <ProjectHeader />
+          <ProjectDetails />
+          <OutcomesGrid />
+        </div>
         <Footer />
       </div>
     </div>
