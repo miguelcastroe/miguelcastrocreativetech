@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import ProjectHeader from "@/components/peruvian-art/ProjectHeader";
 import ProjectDetails from "@/components/peruvian-art/ProjectDetails";
 import OutcomesGrid from "@/components/peruvian-art/OutcomesGrid";
+import Sources from "@/components/peruvian-art/Sources";
 
 const PeruvianDeclassifiedArt = () => {
   return (
@@ -13,6 +14,7 @@ const PeruvianDeclassifiedArt = () => {
           <ProjectHeader />
           <ProjectDetails />
           <OutcomesGrid />
+          <Sources />
         </div>
         <Footer />
       </div>
