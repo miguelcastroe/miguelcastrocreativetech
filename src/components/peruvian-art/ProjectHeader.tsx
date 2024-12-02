@@ -13,9 +13,9 @@ const ProjectHeader = () => {
             powered by its API for seamless data retrieval and high-resolution imagery.
           </p>
           <div className="flex flex-wrap gap-4">
-            <span className="text-sm px-3 py-1 bg-[#F1F0FB] rounded-full">Art</span>
-            <span className="text-sm px-3 py-1 bg-[#F1F0FB] rounded-full">Cultural Heritage</span>
-            <span className="text-sm px-3 py-1 bg-[#F1F0FB] rounded-full">Digital Archive</span>
+            <span className="text-sm px-3 py-1 bg-[#f3f3f3] rounded-full">Art</span>
+            <span className="text-sm px-3 py-1 bg-[#f3f3f3] rounded-full">Cultural Heritage</span>
+            <span className="text-sm px-3 py-1 bg-[#f3f3f3] rounded-full">Digital Archive</span>
           </div>
         </div>
         <div className="order-1 md:order-2 max-w-xl mx-auto w-full">
