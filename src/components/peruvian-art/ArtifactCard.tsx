@@ -10,7 +10,7 @@ interface ArtifactCardProps {
 
 const ArtifactCard = ({ imageUrl, title, culture, period }: ArtifactCardProps) => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       <Card className="border-none shadow-none">
         <CardContent className="p-0">
           <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
@@ -22,7 +22,7 @@ const ArtifactCard = ({ imageUrl, title, culture, period }: ArtifactCardProps) =
           </div>
         </CardContent>
       </Card>
-      <div className="space-y-2">
+      <div className="space-y-1.5">
         <h3 className="text-xl font-medium">
           {title}
         </h3>

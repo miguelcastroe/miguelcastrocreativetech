@@ -34,8 +34,8 @@ const ProjectDetails = () => {
 
         {/* Right Column */}
         <div className="md:col-span-7">
-          <section className="mt-16">
-            <blockquote className="text-lg italic text-gray-600 border-l-[0.75px] border-[#ff4f00] pl-6">
+          <section>
+            <blockquote className="text-base italic text-gray-600 border-l-[0.75px] border-[#ff4f00] pl-6 mt-0">
               "Peruvian Declassified Art demonstrates the potential of open access data and digital technologies 
               to foster preservation, education, and global appreciation of Peru's heritage."
             </blockquote>
