@@ -30,7 +30,7 @@ const PersonalSection = () => {
           <div className="group-hover:text-[#ff4f00] transition-colors text-base md:text-base sm:text-sm xs:text-xs">
             <span>Peruvian Declassified Art</span>
             <span className="mx-2">•</span>
-            <span>Culture & Art</span>
+            <span>Culture</span>
             <span className="mx-2">•</span>
             <span>PE</span>
           </div>
