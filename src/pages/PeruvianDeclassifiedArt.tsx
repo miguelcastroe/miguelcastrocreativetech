@@ -1,19 +1,12 @@
-import { ArrowLeft } from "lucide-react";
-import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const PeruvianDeclassifiedArt = () => {
   return (
-    <div className="min-h-screen">
-      <div className="px-6 md:px-[220px]">
+    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
+      <div className="max-w-[1000px] mx-auto">
         <Header />
         
-        <Link to="/" className="inline-flex items-center text-sm hover:text-[#ff4f00] mb-12">
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to home
-        </Link>
-
         {/* Header Section */}
         <div className="mb-16">
           <span className="text-xs uppercase text-[#a1a1aa]">[case study in short]</span>
@@ -116,8 +109,9 @@ const PeruvianDeclassifiedArt = () => {
             </div>
           </div>
         </section>
+
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
