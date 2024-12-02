@@ -10,6 +10,7 @@ const corsHeaders = {
 };
 
 async function getSpotifyToken() {
+  console.log('Getting Spotify token...');
   const response = await fetch('https://accounts.spotify.com/api/token', {
     method: 'POST',
     headers: {
@@ -22,6 +23,7 @@ async function getSpotifyToken() {
   });
 
   if (!response.ok) {
+    console.error('Failed to get token:', response.status);
     throw new Error(`Failed to get Spotify token: ${response.status}`);
   }
 
@@ -29,17 +31,24 @@ async function getSpotifyToken() {
 }
 
 async function getCurrentlyPlaying(accessToken: string) {
+  console.log('Getting currently playing track...');
   const response = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
     headers: {
       'Authorization': `Bearer ${accessToken}`,
     },
   });
 
-  if (response.status === 204) {
-    return null;
+  // If status is 204 or 404, it means no track is currently playing
+  if (response.status === 204 || response.status === 404) {
+    console.log('No track currently playing');
+    return {
+      is_playing: false,
+      item: null
+    };
   }
 
   if (!response.ok) {
+    console.error('Failed to get currently playing:', response.status);
     throw new Error(`Failed to get currently playing: ${response.status}`);
   }
 
