@@ -22,7 +22,7 @@ const ArtifactCard = ({ imageUrl, title, culture, period }: ArtifactCardProps) =
           </div>
         </CardContent>
       </Card>
-      <div className="space-y-1.5">
+      <div className="space-y-0.5">
         <h3 className="text-xl font-medium">
           {title}
         </h3>
