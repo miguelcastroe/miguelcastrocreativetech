@@ -7,7 +7,7 @@ const OutcomesGrid = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-[#F6F6F7] p-8 rounded-lg">
           <h3 className="text-base font-medium mb-3">Impressions</h3>
-          <p className="text-sm text-gray-600">+1.3B impressions achieved</p>
+          <p className="text-sm text-gray-600">+1.3B media impressions achieved</p>
         </div>
         <div className="bg-[#F6F6F7] p-8 rounded-lg">
           <h3 className="text-base font-medium mb-3">Pre-orders</h3>
