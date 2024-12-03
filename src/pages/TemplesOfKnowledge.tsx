@@ -9,9 +9,14 @@ const TemplesOfKnowledge = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#403E43]">
             Temples of Knowledge
           </h1>
-          <p className="text-lg text-[#666] font-medium">
+          <p className="text-lg text-[#666] font-medium mb-12">
             Bridging Education and Culture with AI
           </p>
+          <img 
+            src="/lovable-uploads/c03d6e3b-ea94-4de7-982c-662c9aa2a1b9.png"
+            alt="Technical illustration of an educational device"
+            className="w-full max-w-[600px] mx-auto mb-16"
+          />
         </header>
 
         <section className="mb-16 animate-fade-in">
