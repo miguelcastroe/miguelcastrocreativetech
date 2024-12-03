@@ -1,69 +1,30 @@
-# Welcome to your Lovable project
+# Miguel Castro | Creative Director & Tech Consultant  
 
-## Project info
+Welcome to my corner of the digital world! I'm **Miguel Castro**, a seasoned creative director and tech consultant based in South America, blending nearly two decades of experience in creativity and technology to make meaningful ideas come to life.
 
-**URL**: https://lovable.dev/projects/d8a91d2a-51f5-46c4-8b61-d07ab6819f14
+---
 
-## How can I edit this code?
+## About Me  
 
-There are several ways of editing your application.
+I’ve built my career on defying the odds. From transforming Movistar into one of the most innovative digital brands to winning Peru’s first Grand Prix in Innovation at Cannes Lions in 2023 and a Bronze in 2024, my journey has been about pushing boundaries and creating impact.  
 
-**Use Lovable**
+Whether it’s leading teams, breaking sales records, or building tools to empower communities, I strive to combine creativity and technology to solve real-world problems.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d8a91d2a-51f5-46c4-8b61-d07ab6819f14) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Philosophy  
 
-**Use your preferred IDE**
+I believe technology should serve a greater good, beyond gimmicks and trends. My work is guided by the idea that creativity and technology, when combined, can transform industries, elevate cultures, and empower individuals.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Recognition  
+- **Cannes Lions Grand Prix in Innovation (2023)**  
+- **Cannes Lions Bronze in Innovation (2024)**  
+- Multiple Effie Awards for groundbreaking creative campaigns.  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Let’s Connect  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d8a91d2a-51f5-46c4-8b61-d07ab6819f14) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+I’m passionate about creating solutions that matter. Feel free to explore, connect, or collaborate. Together, let’s defy the odds.  
