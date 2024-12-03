@@ -11,6 +11,7 @@ import VanishingEmails from "./pages/VanishingEmails";
 import BehindTheFear from "./pages/BehindTheFear";
 import Readme from "./pages/Readme";
 import About from "./pages/About";
+import TemplesOfKnowledge from "./pages/TemplesOfKnowledge";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/behind-the-fear" element={<BehindTheFear />} />
           <Route path="/readme" element={<Readme />} />
           <Route path="/about" element={<About />} />
+          <Route path="/temples-of-knowledge" element={<TemplesOfKnowledge />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
