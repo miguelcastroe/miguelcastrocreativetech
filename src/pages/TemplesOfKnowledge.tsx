@@ -7,7 +7,7 @@ const TemplesOfKnowledge = () => {
       <div className="max-w-[1000px] mx-auto">
         <Header />
         
-        <article className="max-w-[800px] mx-auto bg-[#fffcf9] p-8 md:p-12 mt-24 shadow-sm">
+        <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12 mt-24">
           <header className="mb-16 text-center">
             <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#403E43]">
               Temples of Knowledge
