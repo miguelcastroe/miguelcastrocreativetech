@@ -8,7 +8,7 @@ const About = () => {
         <Header />
         <main className="mt-26">
           <section id="about" className="mb-26 animate-fade-in">
-            <h1 className="text-3xl mb-12 font-medium">About</h1>
+            <h1 className="text-3xl mb-12 font-medium">Against the Odds: A Journey of Creativity and Resilience</h1>
             
             <div className="space-y-8 text-lg leading-relaxed">
               <p>I have made a career out of defying the odds.</p>
