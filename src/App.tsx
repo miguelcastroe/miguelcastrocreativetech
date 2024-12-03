@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import PeruvianDeclassifiedArt from "./pages/PeruvianDeclassifiedArt";
 import MouthPad from "./pages/MouthPad";
 import VanishingEmails from "./pages/VanishingEmails";
+import BehindTheFear from "./pages/BehindTheFear";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/peruvian-declassified-art" element={<PeruvianDeclassifiedArt />} />
           <Route path="/mouthpad" element={<MouthPad />} />
           <Route path="/vanishing-emails" element={<VanishingEmails />} />
+          <Route path="/behind-the-fear" element={<BehindTheFear />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
