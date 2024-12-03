@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <nav className="flex gap-6 text-sm">
         <Link to="#about">ABOUT</Link>
-        <Link to="https://linkedin.com/in/miguelcastro" target="_blank">IN</Link>
+        <Link to="https://www.linkedin.com/in/miguelcastroe/" target="_blank">IN</Link>
         <Link to="https://instagram.com/miguelcastro" target="_blank">IG</Link>
       </nav>
     </header>
