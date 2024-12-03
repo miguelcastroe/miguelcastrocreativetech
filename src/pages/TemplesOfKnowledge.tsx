@@ -4,7 +4,7 @@ import Sources from "@/components/temples-of-knowledge/Sources";
 const TemplesOfKnowledge = () => {
   return (
     <PageLayout>
-      <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12">
+      <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12 mb-32">
         <header className="mb-16 text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#403E43]">
             Temples of Knowledge
