@@ -28,9 +28,9 @@ const WorksSection = () => {
         </Link>
         <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group cursor-pointer">
           <div className="group-hover:text-[#ff4f00] transition-colors text-base md:text-base sm:text-sm xs:text-xs">
-            <span>Temples of Knowledge</span>
+            <span>Behind The Fear</span>
             <span className="mx-2">•</span>
-            <span>Education</span>
+            <span>DEMUS Women's Rights</span>
             <span className="mx-2">•</span>
             <span>PE</span>
           </div>
