@@ -38,7 +38,7 @@ const TemplesOfKnowledge = () => {
               The inspiration for Temples of Knowledge comes from the resilience and richness of Peru's indigenous communities. Their languages and traditions hold immense cultural value but are often overlooked in education and technology. This initiative aims to honor that heritage while introducing tools that can spark curiosity, creativity, and growth in future generations. It's a belief that education should respect where students come from while empowering them to imagine where they can go.
             </p>
             <blockquote className="border-l-[0.75px] border-[#ff4f00] pl-6 my-8 italic text-lg text-[#333]">
-              "Education is not about changing who we are—it's about amplifying what we already have, so every child can see their culture reflected in their future."
+              "Education is not about changing who we are: it's about amplifying what we already have, so every child can see their culture reflected in their future."
             </blockquote>
           </div>
         </section>
@@ -92,12 +92,6 @@ const TemplesOfKnowledge = () => {
             </p>
           </div>
         </section>
-
-        <blockquote className="border-l-[0.75px] border-[#ff4f00] pl-6 my-12 animate-fade-in [animation-delay:1000ms]">
-          <p className="text-lg italic text-[#333] font-medium">
-            "Knowledge becomes truly powerful when it speaks the language of the people it serves."
-          </p>
-        </blockquote>
 
         <Sources />
       </article>
