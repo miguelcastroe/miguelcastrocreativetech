@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import VanishingEmailsHeader from "@/components/vanishing-emails/VanishingEmailsHeader";
 import VanishingEmailsDetails from "@/components/vanishing-emails/VanishingEmailsDetails";
 import OutcomesGrid from "@/components/vanishing-emails/OutcomesGrid";
-import Sources from "@/components/mouthpad/Sources";
+import Sources from "@/components/vanishing-emails/Sources";
 
 const VanishingEmails = () => {
   return (
