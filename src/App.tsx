@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import PeruvianDeclassifiedArt from "./pages/PeruvianDeclassifiedArt";
 import MouthPad from "./pages/MouthPad";
+import VanishingEmails from "./pages/VanishingEmails";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/peruvian-declassified-art" element={<PeruvianDeclassifiedArt />} />
           <Route path="/mouthpad" element={<MouthPad />} />
+          <Route path="/vanishing-emails" element={<VanishingEmails />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

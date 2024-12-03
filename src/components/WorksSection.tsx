@@ -16,7 +16,7 @@ const WorksSection = () => {
           </div>
           <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
         </Link>
-        <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group cursor-pointer">
+        <Link to="/vanishing-emails" className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group">
           <div className="group-hover:text-[#ff4f00] transition-colors text-base md:text-base sm:text-sm xs:text-xs">
             <span>Vanishing Emails</span>
             <span className="mx-2">•</span>
@@ -25,12 +25,12 @@ const WorksSection = () => {
             <span>PE/US</span>
           </div>
           <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
-        </div>
+        </Link>
         <div className="py-4 border-t border-[#a1a1aa] [border-top-width:0.5px] flex justify-between items-center group cursor-pointer">
           <div className="group-hover:text-[#ff4f00] transition-colors text-base md:text-base sm:text-sm xs:text-xs">
-            <span>Behind The Fear</span>
+            <span>Temples of Knowledge</span>
             <span className="mx-2">•</span>
-            <span>Defense of Women's Rights</span>
+            <span>Education</span>
             <span className="mx-2">•</span>
             <span>PE</span>
           </div>
