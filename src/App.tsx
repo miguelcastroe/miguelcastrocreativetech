@@ -10,6 +10,7 @@ import MouthPad from "./pages/MouthPad";
 import VanishingEmails from "./pages/VanishingEmails";
 import BehindTheFear from "./pages/BehindTheFear";
 import Readme from "./pages/Readme";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/vanishing-emails" element={<VanishingEmails />} />
           <Route path="/behind-the-fear" element={<BehindTheFear />} />
           <Route path="/readme" element={<Readme />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

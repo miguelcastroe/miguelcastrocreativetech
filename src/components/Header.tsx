@@ -14,7 +14,7 @@ const Header = () => {
         <span className="ml-5 uppercase text-[#a1a1aa]">Creative Director and Tech Consultant</span>
       </div>
       <nav className="flex gap-6 text-sm">
-        <Link to="#about">ABOUT</Link>
+        <Link to="/about">ABOUT</Link>
         <Link to="https://www.linkedin.com/in/miguelcastroe/" target="_blank">IN</Link>
         <Link to="https://instagram.com/miguelcastro" target="_blank">IG</Link>
       </nav>
