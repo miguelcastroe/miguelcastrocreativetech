@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="relative">
           <h3 className="uppercase mb-2 text-[#a1a1aa]">About this website</h3>
           <p className="text-[#444]">
-            Created with 5+ prompts
+            Created with 166+ prompts
           </p>
         </div>
         <div className="flex justify-end">
