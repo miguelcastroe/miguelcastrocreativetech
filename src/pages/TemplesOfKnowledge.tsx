@@ -10,7 +10,7 @@ import FutureVision from "@/components/temples-of-knowledge/FutureVision";
 const TemplesOfKnowledge = () => {
   return (
     <PageLayout>
-      <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12 mb-32">
+      <article className="max-w-[800px] mx-auto bg-[#fafafa] p-8 md:p-12 mb-32">
         <Header />
         <Challenge />
         <Inspiration />
