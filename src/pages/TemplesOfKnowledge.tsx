@@ -9,9 +9,9 @@ const TemplesOfKnowledge = () => {
         <Header />
         
         <ScrollArea className="h-[calc(100vh-280px)] mt-24">
-          <article className="max-w-[800px] mx-auto bg-white p-8 md:p-12 shadow-sm">
+          <article className="max-w-[800px] mx-auto bg-[#fdfbf7] p-8 md:p-12 shadow-sm">
             <header className="mb-16 text-center">
-              <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#403E43] to-[#8B5CF6] bg-clip-text text-transparent">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#ff4f00] to-[#ff8700] bg-clip-text text-transparent">
                 Temples of Knowledge
               </h1>
               <p className="text-lg text-[#666] font-medium">
