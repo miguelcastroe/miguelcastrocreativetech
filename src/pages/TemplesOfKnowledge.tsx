@@ -1,21 +1,14 @@
-import { ArrowLeft } from "lucide-react";
-import { Link } from "react-router-dom";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const TemplesOfKnowledge = () => {
   return (
-    <div className="min-h-screen bg-[#F6F6F7]">
-      <div className="max-w-[1200px] mx-auto px-6 py-6">
+    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
+      <div className="max-w-[1000px] mx-auto">
         <Header />
         
-        <Link to="/" className="inline-flex items-center text-sm hover:text-[#ff4f00] mb-12 mt-24">
-          <ArrowLeft className="w-4 h-4 mr-2" />
-          Back
-        </Link>
-
-        <ScrollArea className="h-[calc(100vh-280px)]">
+        <ScrollArea className="h-[calc(100vh-280px)] mt-24">
           <article className="max-w-[800px] mx-auto bg-white p-8 md:p-12 shadow-sm">
             <header className="mb-16 text-center">
               <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-[#403E43] to-[#8B5CF6] bg-clip-text text-transparent">
