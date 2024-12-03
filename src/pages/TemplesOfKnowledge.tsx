@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Sources from "@/components/temples-of-knowledge/Sources";
 
 const TemplesOfKnowledge = () => {
   return (
@@ -94,45 +95,7 @@ const TemplesOfKnowledge = () => {
             </p>
           </blockquote>
 
-          <section className="mb-16 animate-fade-in [animation-delay:1200ms]">
-            <h2 className="text-xl font-semibold mb-6 text-[#403E43]">Sources</h2>
-            <div className="prose prose-sm max-w-none space-y-4">
-              <div className="text-base leading-relaxed text-[#444]">
-                <a href="https://www.unicef.org/peru/en/stories/peru-guaranteeing-education-indigenous-languages" target="_blank" rel="noopener noreferrer" className="block mb-2">
-                  <strong>UNICEF Peru - Guaranteeing Education in Indigenous Languages</strong>
-                  <p className="text-sm text-[#666]">Efforts and challenges of bilingual education in Peru.</p>
-                </a>
-              </div>
-
-              <div className="text-base leading-relaxed text-[#444]">
-                <a href="https://apnews.com/article/peru-south-america-language" target="_blank" rel="noopener noreferrer" className="block mb-2">
-                  <strong>AP News - Peru's Push to Preserve Indigenous Languages Through Education</strong>
-                  <p className="text-sm text-[#666]">Barriers to integrating native languages in schools.</p>
-                </a>
-              </div>
-
-              <div className="text-base leading-relaxed text-[#444]">
-                <a href="https://borgenproject.org/raspberry-pi-innovates-developing-countries" target="_blank" rel="noopener noreferrer" className="block mb-2">
-                  <strong>The Borgen Project - How Raspberry Pi Innovates in Developing Countries</strong>
-                  <p className="text-sm text-[#666]">Raspberry Pi's role in bridging educational gaps.</p>
-                </a>
-              </div>
-
-              <div className="text-base leading-relaxed text-[#444]">
-                <a href="https://www.worldbank.org/en/topic/education/publication/role-of-technology-latin-america" target="_blank" rel="noopener noreferrer" className="block mb-2">
-                  <strong>World Bank - The Role of Technology in Education in Latin America</strong>
-                  <p className="text-sm text-[#666]">Technology's impact on reducing rural educational disparities.</p>
-                </a>
-              </div>
-
-              <div className="text-base leading-relaxed text-[#444]">
-                <a href="https://www.ethnologue.com/country/PE" target="_blank" rel="noopener noreferrer" className="block mb-2">
-                  <strong>Ethnologue - Languages of Peru</strong>
-                  <p className="text-sm text-[#666]">Statistics on Peru's 47 indigenous languages.</p>
-                </a>
-              </div>
-            </div>
-          </section>
+          <Sources />
         </article>
         
         <div className="mt-12">
