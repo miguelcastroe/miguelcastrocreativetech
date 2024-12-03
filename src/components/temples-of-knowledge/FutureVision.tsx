@@ -12,7 +12,7 @@ const FutureVision = () => {
           By fostering partnerships with educators, communities, and organizations, we can collectively work toward a system that respects cultural heritage while equipping students with the skills needed for tomorrow. It's a vision rooted in hope, purpose, and the belief that even the smallest steps can lead to transformative change.
         </p>
         <p className="text-base leading-relaxed text-[#444]">
-          This project is my way of giving back to my country—an idea for a better tomorrow, born from the challenges of today.
+          This project is my way of giving back to my country an idea for a better tomorrow, born from the challenges of today.
         </p>
       </div>
     </section>
