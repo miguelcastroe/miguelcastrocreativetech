@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   return (
@@ -12,9 +11,10 @@ const About = () => {
             <h1 className="text-3xl mb-4 font-medium">Against the Odds: A Journey of Creativity and Resilience</h1>
             
             <div className="flex items-center gap-4 mb-12">
-              <Badge variant="secondary" className="text-xs">3 minutes read</Badge>
+              <span className="text-sm text-muted-foreground">Read along</span>
               <audio 
                 controls 
+                controlsList="nodownload"
                 src="https://ouauehtpqfvldbvsihpu.supabase.co/storage/v1/object/public/GIF/miguelcastro_notbritish.mp3"
                 className="h-8 flex-grow max-w-[300px]"
               >
