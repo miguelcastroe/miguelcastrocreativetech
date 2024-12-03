@@ -11,11 +11,11 @@ const Header = () => {
       </p>
       <div className="mb-16">
         <img 
-          src="/lovable-uploads/c03d6e3b-ea94-4de7-982c-662c9aa2a1b9.png"
-          alt="Technical illustration of an educational device"
+          src="/lovable-uploads/1f6b250b-525b-4b77-94db-ccbbb6b2041b.png"
+          alt="Technical illustration of Temple of Knowledge device"
           className="w-full max-w-[600px] mx-auto mb-2"
         />
-        <p className="text-xs text-[#666] italic">Generated with Midjourney</p>
+        <p className="text-xs text-[#666] italic">Technical illustration</p>
       </div>
     </header>
   );
