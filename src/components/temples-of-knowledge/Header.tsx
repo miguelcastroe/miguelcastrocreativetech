@@ -15,7 +15,7 @@ const Header = () => {
           alt="Technical illustration of Temple of Knowledge device"
           className="w-full max-w-[600px] mx-auto mb-2"
         />
-        <p className="text-xs text-[#666] italic">Technical illustration</p>
+        <p className="text-xs text-[#666] italic">Technical illustration generated with Midjourney</p>
       </div>
     </header>
   );
