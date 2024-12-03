@@ -1,28 +1,24 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PageLayout from "@/components/PageLayout";
 
 const About = () => {
   return (
-    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
-      <div className="max-w-[1000px] mx-auto">
-        <Header />
-        <main className="mt-26">
-          <section id="about" className="mb-26 animate-fade-in">
-            <h1 className="text-3xl mb-4 font-medium">Against the Odds: A Journey of Creativity and Resilience</h1>
-            
-            <div className="flex items-center gap-4 mb-12">
-              <span className="text-sm text-muted-foreground">Read along</span>
-              <audio 
-                controls 
-                controlsList="nodownload"
-                src="https://ouauehtpqfvldbvsihpu.supabase.co/storage/v1/object/public/GIF/miguelcastro_notbritish.mp3"
-                className="h-8 flex-grow max-w-[300px]"
-              >
-                Your browser does not support the audio element.
-              </audio>
-            </div>
-            
-            <div className="space-y-8 text-lg leading-relaxed">
+    <PageLayout>
+      <section id="about" className="mb-26 animate-fade-in">
+        <h1 className="text-3xl mb-4 font-medium">Against the Odds: A Journey of Creativity and Resilience</h1>
+        
+        <div className="flex items-center gap-4 mb-12">
+          <span className="text-sm text-muted-foreground">Read along</span>
+          <audio 
+            controls 
+            controlsList="nodownload"
+            src="https://ouauehtpqfvldbvsihpu.supabase.co/storage/v1/object/public/GIF/miguelcastro_notbritish.mp3"
+            className="h-8 flex-grow max-w-[300px]"
+          >
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        
+        <div className="space-y-8 text-lg leading-relaxed">
               <p>I have made a career out of defying the odds.</p>
               
               <p>After honing my craft at AKQA, I returned to Peru feeling like a creative digital master, certain that my skills were the future. Instead, I found an industry still hesitant about digital innovation. Over 20 interviews later—at agencies big and small—it was clear no one considered my expertise relevant. It took over a year of rejection to finally land my first job, but that initial step was all I needed.</p>
@@ -40,12 +36,9 @@ const About = () => {
               <p>For me, technology isn't just a tool—it's a means to create solutions that matter. It's not about gimmicks or gadgets; it's about finding ways to make life better, more connected, and more meaningful. I've spent my career bridging the gap between these two worlds, working with brands, businesses, and NGOs, and developing tools that empower others to think bigger and push further.</p>
               
               <p>This work has always been about more than just breaking records or winning awards—it's about redefining what's possible and proving, time and time again, that the odds are just another challenge to overcome.</p>
-            </div>
-          </section>
-          <Footer />
-        </main>
-      </div>
-    </div>
+        </div>
+      </section>
+    </PageLayout>
   );
 };
 

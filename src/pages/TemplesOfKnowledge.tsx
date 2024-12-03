@@ -1,31 +1,27 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PageLayout from "@/components/PageLayout";
 import Sources from "@/components/temples-of-knowledge/Sources";
 
 const TemplesOfKnowledge = () => {
   return (
-    <div className="min-h-screen px-6 md:px-[220px] pt-6 pb-8 md:pt-8">
-      <div className="max-w-[1000px] mx-auto">
-        <Header />
-        
-        <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12 mt-24">
-          <header className="mb-16 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#403E43]">
-              Temples of Knowledge
-            </h1>
-            <p className="text-lg text-[#666] font-medium">
-              Bridging Education and Culture with AI
-            </p>
-          </header>
+    <PageLayout>
+      <article className="max-w-[800px] mx-auto bg-[#f9f9f9] p-8 md:p-12">
+        <header className="mb-16 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold mb-6 text-[#403E43]">
+            Temples of Knowledge
+          </h1>
+          <p className="text-lg text-[#666] font-medium">
+            Bridging Education and Culture with AI
+          </p>
+        </header>
 
-          <section className="mb-16 animate-fade-in">
-            <h2 className="text-xl font-semibold mb-6 text-[#403E43]">Challenge</h2>
-            <div className="prose prose-sm max-w-none">
-              <p className="text-base leading-relaxed text-[#444]">
-                In Peru's remote highlands, where Quechua and Aymara are spoken, access to quality education is limited by scarce resources, high technology costs, and unreliable internet connectivity. Indigenous communities face additional barriers, as most educational tools fail to include native languages or respect their cultural context. These gaps perpetuate a cycle of inequality, leaving students without the tools to thrive in a rapidly advancing world.
-              </p>
-            </div>
-          </section>
+        <section className="mb-16 animate-fade-in">
+          <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Challenge</h2>
+          <div className="prose prose-sm max-w-none">
+            <p className="text-base leading-relaxed text-[#444]">
+              In Peru's remote highlands, where Quechua and Aymara are spoken, access to quality education is limited by scarce resources, high technology costs, and unreliable internet connectivity. Indigenous communities face additional barriers, as most educational tools fail to include native languages or respect their cultural context. These gaps perpetuate a cycle of inequality, leaving students without the tools to thrive in a rapidly advancing world.
+            </p>
+          </div>
+        </section>
 
           <section className="mb-16 animate-fade-in [animation-delay:200ms]">
             <h2 className="text-xl font-semibold mb-6 text-[#403E43]">Inspiration</h2>
@@ -95,14 +91,9 @@ const TemplesOfKnowledge = () => {
             </p>
           </blockquote>
 
-          <Sources />
-        </article>
-        
-        <div className="mt-12">
-          <Footer />
-        </div>
-      </div>
-    </div>
+        <Sources />
+      </article>
+    </PageLayout>
   );
 };
 
