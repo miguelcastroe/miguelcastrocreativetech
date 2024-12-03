@@ -33,7 +33,7 @@ const ProjectDetails = () => {
 
         <div className="md:col-span-7">
           <section>
-            <div className="bg-[#f6f6f7] p-6 rounded-lg font-ibm text-xs mb-8">
+            <div className="bg-[#f6f6f7] p-4 rounded-lg font-ibm text-tiny mb-8">
               <pre className="whitespace-pre-wrap text-[#333]">
 {`<p>Hey Sis, <span class="hidden-message" title="Help me">how are you?</span></p>
 <p>I hope to see you soon. Carl is <span class="highlight">stressed</span>, 
