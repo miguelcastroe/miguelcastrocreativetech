@@ -12,7 +12,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-[#ff4f00] transition-colors"
           >
-            View my Spotify profile
+            Curated playlist of findings
           </a>
         </div>
         <div className="flex justify-end">
