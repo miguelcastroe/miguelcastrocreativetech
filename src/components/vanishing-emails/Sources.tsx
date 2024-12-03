@@ -9,29 +9,19 @@ import {
 const Sources = () => {
   const sources = [
     {
-      title: "The Carbon Cost of Email - OVO Energy Research",
-      description: "Study on the carbon footprint of email storage and transmission.",
-      url: "https://www.ovoenergy.com/ovo-newsroom/press-releases/2019/november/think-before-you-thank-if-every-brit-sent-one-less-thank-you-email-a-day-we-would-save-16433-tonnes-of-carbon-a-year-the-same-as-81152-flights-to-madrid"
+      title: "MIT Press Reader - The Staggering Ecological Impacts of Computation",
+      description: "Examines data centers' carbon footprint and environmental impact.",
+      url: "https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/"
     },
     {
-      title: "The Unseen Impact: Data Centers and Environmental Sustainability - Science Direct",
-      description: "Research on data center energy consumption and environmental effects.",
-      url: "https://www.sciencedirect.com/science/article/pii/S2666412723000095"
+      title: "DataCamp - Environmental Impact of Digital Tech",
+      description: "Overview of carbon emissions from data storage and transmission.",
+      url: "https://www.datacamp.com/blog/environmental-impact-data-digital-technology"
     },
     {
-      title: "EPA - Data Center Energy Efficiency Initiatives",
-      description: "Government guidelines on data center energy efficiency.",
-      url: "https://www.epa.gov/energy/data-centers-and-servers"
-    },
-    {
-      title: "International Journal of Environmental Studies - Digital Waste",
-      description: "Academic research on digital waste management and environmental impact.",
-      url: "https://www.tandfonline.com/doi/full/10.1080/00207233.2021.1915451"
-    },
-    {
-      title: "Nature - The spiralling environmental cost of our lithium battery addiction",
-      description: "Impact of data storage on battery production and environmental consequences.",
-      url: "https://www.nature.com/articles/d41586-021-02222-1"
+      title: "AKCP - Power-Hungry Data Centers",
+      description: "Explores global energy demands of data centers.",
+      url: "https://www.akcp.com/blog/the-power-hungry-rise-of-data-centers-energy-consumption-worldwide/"
     }
   ];
 
