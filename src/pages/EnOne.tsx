@@ -2,7 +2,6 @@ import PageLayout from "@/components/PageLayout";
 import EnOneHeader from "@/components/en-one/EnOneHeader";
 import ProjectDetails from "@/components/en-one/ProjectDetails";
 import OutcomesGrid from "@/components/en-one/OutcomesGrid";
-import Sources from "@/components/en-one/Sources";
 
 const EnOne = () => {
   return (
@@ -18,7 +17,6 @@ const EnOne = () => {
       </div>
       <ProjectDetails />
       <OutcomesGrid />
-      <Sources />
     </PageLayout>
   );
 };
