@@ -57,7 +57,7 @@ const WorksSection = () => {
             <div className="group-hover:text-[#ff4f00] transition-colors text-base">
               <span>Behind The Fear</span>
               <span className="mx-2">•</span>
-              <span>DEMUS Women's Rights</span>
+              <span>DEMUS</span>
             </div>
             <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
           </div>
