@@ -8,25 +8,28 @@ const ProjectDetails = () => {
           <section>
             <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Challenge</h2>
             <p className="text-gray-800">
-              Traditional payment systems in Peru often present barriers to small businesses 
-              and individuals, limiting financial inclusion and economic growth opportunities.
+              Addressing the dependency on cash among young entrepreneurs and micro-merchants in Peru, 
+              caused by the delay of up to 48 hours for receiving payments from traditional card 
+              transactions, which hindered liquidity and reinvestment.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Insight</h2>
+            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Inspiration</h2>
             <p className="text-gray-800">
-              A significant portion of Peru's population remains underserved by conventional 
-              banking systems, creating an opportunity for innovative, accessible payment solutions.
+              Peru boasts over 5.5 million young entrepreneurs and micro-merchants aged 18 to 35. 
+              While the pandemic accelerated digital payment adoption, liquidity needs left many 
+              reliant on cash. This highlighted a significant gap in the market for solutions that 
+              combine immediate access to funds with digital payment methods.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Solution</h2>
+            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Development</h2>
             <p className="text-gray-800">
-              En One introduces a seamless, user-friendly payment platform that combines 
-              cutting-edge technology with intuitive design, making financial transactions 
-              accessible to all segments of the population.
+              Izipay, in partnership with Interbank, introduced "En One", an innovative instant 
+              payment solution. Leveraging advanced technology, a deep understanding of user journeys, 
+              and banking expertise, the solution allowed merchants to access their sales earnings immediately.
             </p>
           </section>
         </div>
@@ -34,9 +37,15 @@ const ProjectDetails = () => {
         <div className="md:col-span-7">
           <section>
             <blockquote className="text-base italic text-gray-600 border-l-[0.75px] border-[#ff4f00] pl-6 mt-0">
-              "En One represents a significant step forward in democratizing payment solutions 
-              in Peru, making financial services more accessible to everyone."
+              To ensure resonance with the target audience, the campaign adopted Peruvian slang and 
+              relatable expressions like "wantan" and "Wan Kenobi," presenting the benefits of instant 
+              payment in a familiar, culturally relevant manner.
             </blockquote>
+            <p className="mt-8 text-gray-800">
+              A multi-channel strategy spanned Facebook, Instagram, TikTok, WhatsApp, and the Izipay app, 
+              complemented by geolocated campaigns in key markets and shopping centers. Data-driven 
+              segmentation and automated marketing tools ensured efficient and effective message delivery.
+            </p>
           </section>
         </div>
       </div>

@@ -3,34 +3,34 @@ import React from 'react';
 const OutcomesGrid = () => {
   return (
     <div className="mb-32 animate-fade-in">
-      <h2 className="text-xs uppercase mb-8 text-[#a1a1aa]">Outcomes</h2>
+      <h2 className="text-xs uppercase mb-8 text-[#a1a1aa]">Results</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-lg font-medium mb-4">Enhanced Accessibility</h3>
+          <h3 className="text-lg font-medium mb-4">Merchant Impact</h3>
           <p className="text-gray-800">
-            Simplified payment processes that cater to both tech-savvy users and those new to digital payments, 
-            ensuring widespread adoption across different demographic groups.
+            Improved liquidity and reinvestment capability with instant payments, enabling merchants 
+            to better manage their cash flow and grow their businesses.
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-medium mb-4">Increased Security</h3>
+          <h3 className="text-lg font-medium mb-4">Campaign Success</h3>
           <p className="text-gray-800">
-            Implementation of state-of-the-art security measures to protect user data and transactions, 
-            building trust in digital payment solutions.
+            Successfully positioned Izipay as the preferred option for young entrepreneurs and small 
+            merchants in Peru through culturally relevant messaging.
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-medium mb-4">Business Growth</h3>
+          <h3 className="text-lg font-medium mb-4">Operational Excellence</h3>
           <p className="text-gray-800">
-            Enabled small businesses to expand their customer base by offering modern payment options, 
-            contributing to local economic development.
+            Accelerated adoption of digital payments while reducing reliance on cash, achieving 
+            significant cost efficiency and reduced implementation time.
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-medium mb-4">User Satisfaction</h3>
+          <h3 className="text-lg font-medium mb-4">Market Leadership</h3>
           <p className="text-gray-800">
-            Achieved high user satisfaction rates through intuitive interface design and reliable 
-            transaction processing, leading to increased adoption rates.
+            Consolidated Izipay's position as a leader in Peru's card payment industry through 
+            innovative solutions and strategic partnerships.
           </p>
         </div>
       </div>
