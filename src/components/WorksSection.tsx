@@ -62,6 +62,25 @@ const WorksSection = () => {
             <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
           </div>
         </Link>
+
+        <Link to="/en-one" className="group">
+          <div className="relative aspect-[4/3] mb-4 overflow-hidden">
+            <img 
+              src="/lovable-uploads/placeholder.svg"
+              alt="En One Project"
+              className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="group-hover:text-[#ff4f00] transition-colors text-base">
+              <span>En One</span>
+              <span className="mx-2">•</span>
+              <span>Izipay</span>
+            </div>
+            <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
+          </div>
+        </Link>
       </div>
     </section>
   );
