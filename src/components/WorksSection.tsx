@@ -9,7 +9,7 @@ const WorksSection = () => {
         <Link to="/mouthpad" className="group">
           <div className="relative aspect-[4/3] mb-4 overflow-hidden">
             <img 
-              src="/lovable-uploads/ea98ca53-d9a6-4616-9b6b-77d9660c0c45.png"
+              src="/lovable-uploads/380e17ae-971b-4029-bf01-1b17d4c6465a.png"
               alt="MouthPad Project"
               className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
             />
