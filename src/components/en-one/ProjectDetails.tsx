@@ -39,7 +39,7 @@ const ProjectDetails = () => {
             <blockquote className="text-base italic text-gray-600 border-l-[0.75px] border-[#ff4f00] pl-6 mt-0">
               To ensure resonance with the target audience, the campaign adopted Peruvian slang and 
               relatable expressions like "wantan" and "Wan Kenobi," presenting the benefits of instant 
-              payment in a familiar, culturally relevant manner. <Link to="/vanishing-emails" className="text-[#ff4f00] hover:underline">Bronze in Innovation</Link>.
+              payment in a familiar, culturally relevant manner. <Link to="/vanishing-emails" className="text-[#ff4f00] underline hover:no-underline">Bronze in Innovation</Link>.
             </blockquote>
           </section>
         </div>
