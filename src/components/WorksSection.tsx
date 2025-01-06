@@ -66,7 +66,7 @@ const WorksSection = () => {
         <Link to="/en-one" className="group">
           <div className="relative aspect-[4/3] mb-4 overflow-hidden">
             <img 
-              src="/lovable-uploads/placeholder.svg"
+              src="/lovable-uploads/88c17c1c-f952-4da9-8264-e7ddcfbb65cd.png"
               alt="En One Project"
               className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
             />
