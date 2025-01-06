@@ -6,6 +6,15 @@ const ProjectDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24">
         <div className="md:col-span-5 space-y-16">
           <section>
+            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Challenge</h2>
+            <p className="text-gray-800">
+              Addressing the dependency on cash among young entrepreneurs and micro-merchants in Peru, 
+              caused by the delay of up to 48 hours for receiving payments from traditional card 
+              transactions, which hindered liquidity and reinvestment.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Idea</h2>
             <p className="text-gray-800">
               Izipay, in partnership with Interbank, introduced "En One", an innovative instant payment solution. 
