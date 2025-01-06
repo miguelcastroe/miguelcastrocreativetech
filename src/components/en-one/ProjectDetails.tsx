@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectDetails = () => {
   return (
-    <div className="mb-32 animate-fade-in">
+    <div className="mb-16 animate-fade-in">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24">
         <div className="md:col-span-5 space-y-16">
           <section>
