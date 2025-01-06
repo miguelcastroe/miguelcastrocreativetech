@@ -38,7 +38,7 @@ const WorksSection = () => {
             <div className="group-hover:text-[#ff4f00] transition-colors text-base">
               <span>Vanishing Emails</span>
               <span className="mx-2">•</span>
-              <span>Amazon Web Services</span>
+              <span>Amazon</span>
             </div>
             <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
           </div>
