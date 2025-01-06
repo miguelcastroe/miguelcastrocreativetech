@@ -20,8 +20,13 @@ const WorksSection = () => {
               <span>MouthPad^</span>
               <span className="mx-2">•</span>
               <span>Augmental</span>
+</lov-replace>
+
+<lov-search>
               <span className="mx-2">•</span>
-              <span>PE/US</span>
+              <span>PE</span>
+</lov-search>
+<lov-replace>
             </div>
             <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
           </div>
@@ -41,8 +46,13 @@ const WorksSection = () => {
               <span>Vanishing Emails</span>
               <span className="mx-2">•</span>
               <span>Amazon Web Services</span>
+</lov-replace>
+
+<lov-search>
               <span className="mx-2">•</span>
-              <span>PE/US</span>
+              <span>PE</span>
+</lov-search>
+<lov-replace>
             </div>
             <ArrowRight className="w-3 h-3 text-[#a1a1aa] transition-transform group-hover:text-[#ff4f00] group-hover:translate-x-1 flex-shrink-0" />
           </div>
