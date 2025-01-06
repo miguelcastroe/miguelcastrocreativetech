@@ -6,30 +6,20 @@ const ProjectDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24">
         <div className="md:col-span-5 space-y-16">
           <section>
-            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Challenge</h2>
+            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Idea</h2>
             <p className="text-gray-800">
-              Addressing the dependency on cash among young entrepreneurs and micro-merchants in Peru, 
-              caused by the delay of up to 48 hours for receiving payments from traditional card 
-              transactions, which hindered liquidity and reinvestment.
+              Izipay, in partnership with Interbank, introduced "En One", an innovative instant payment solution. 
+              Leveraging advanced technology, a deep understanding of user journeys, and banking expertise, 
+              the solution allowed merchants to access their sales earnings immediately.
             </p>
           </section>
 
           <section>
-            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Inspiration</h2>
+            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Campaign</h2>
             <p className="text-gray-800">
-              Peru boasts over 5.5 million young entrepreneurs and micro-merchants aged 18 to 35. 
-              While the pandemic accelerated digital payment adoption, liquidity needs left many 
-              reliant on cash. This highlighted a significant gap in the market for solutions that 
-              combine immediate access to funds with digital payment methods.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xs uppercase mb-4 text-[#a1a1aa]">Development</h2>
-            <p className="text-gray-800">
-              Izipay, in partnership with Interbank, introduced "En One", an innovative instant 
-              payment solution. Leveraging advanced technology, a deep understanding of user journeys, 
-              and banking expertise, the solution allowed merchants to access their sales earnings immediately.
+              A multi-channel strategy spanned Facebook, Instagram, TikTok, WhatsApp, and the Izipay app, 
+              complemented by geolocated campaigns in key markets and shopping centers. Data-driven 
+              segmentation and automated marketing tools ensured efficient and effective message delivery.
             </p>
           </section>
         </div>
@@ -41,11 +31,6 @@ const ProjectDetails = () => {
               relatable expressions like "wantan" and "Wan Kenobi," presenting the benefits of instant 
               payment in a familiar, culturally relevant manner.
             </blockquote>
-            <p className="mt-8 text-gray-800">
-              A multi-channel strategy spanned Facebook, Instagram, TikTok, WhatsApp, and the Izipay app, 
-              complemented by geolocated campaigns in key markets and shopping centers. Data-driven 
-              segmentation and automated marketing tools ensured efficient and effective message delivery.
-            </p>
           </section>
         </div>
       </div>
