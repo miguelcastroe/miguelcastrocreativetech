@@ -12,6 +12,7 @@ import BehindTheFear from "./pages/BehindTheFear";
 import Readme from "./pages/Readme";
 import About from "./pages/About";
 import TemplesOfKnowledge from "./pages/TemplesOfKnowledge";
+import EnOne from "./pages/EnOne";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/readme" element={<Readme />} />
           <Route path="/about" element={<About />} />
           <Route path="/temples-of-knowledge" element={<TemplesOfKnowledge />} />
+          <Route path="/en-one" element={<EnOne />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
