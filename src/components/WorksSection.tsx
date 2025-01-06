@@ -51,7 +51,7 @@ const WorksSection = () => {
         <Link to="/behind-the-fear" className="group">
           <div className="relative aspect-[4/3] mb-4 overflow-hidden">
             <img 
-              src="/lovable-uploads/c03d6e3b-ea94-4de7-982c-662c9aa2a1b9.png"
+              src="/lovable-uploads/cdff836d-314c-411a-8c34-92e6d29304bb.png"
               alt="Behind The Fear Project"
               className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
             />
