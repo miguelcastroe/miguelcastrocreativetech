@@ -60,6 +60,33 @@ export type Database = {
         }
         Relationships: []
       }
+      emoji_mappings: {
+        Row: {
+          category: string | null
+          created_at: string
+          emojis: string[]
+          id: string
+          keywords: string[]
+          theme: string
+        }
+        Insert: {
+          category?: string | null
+          created_at?: string
+          emojis: string[]
+          id?: string
+          keywords: string[]
+          theme: string
+        }
+        Update: {
+          category?: string | null
+          created_at?: string
+          emojis?: string[]
+          id?: string
+          keywords?: string[]
+          theme?: string
+        }
+        Relationships: []
+      }
       messages: {
         Row: {
           created_at: string
@@ -89,6 +116,8 @@ export type Database = {
       }
       news_sources: {
         Row: {
+          category: string | null
+          country: string | null
           created_at: string
           id: string
           is_active: boolean | null
@@ -97,6 +126,8 @@ export type Database = {
           url: string
         }
         Insert: {
+          category?: string | null
+          country?: string | null
           created_at?: string
           id?: string
           is_active?: boolean | null
@@ -105,6 +136,8 @@ export type Database = {
           url: string
         }
         Update: {
+          category?: string | null
+          country?: string | null
           created_at?: string
           id?: string
           is_active?: boolean | null
@@ -136,6 +169,36 @@ export type Database = {
           created_at?: string
           id?: string
           published?: boolean | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      products: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          is_sold_out: boolean | null
+          price: number
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          is_sold_out?: boolean | null
+          price: number
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          is_sold_out?: boolean | null
+          price?: number
           title?: string
           updated_at?: string
         }
@@ -198,6 +261,33 @@ export type Database = {
           project_type?: string | null
           title?: string
           video_url?: string | null
+        }
+        Relationships: []
+      }
+      reservations: {
+        Row: {
+          created_at: string
+          email: string
+          id: string
+          name: string
+          phone: string
+          status: string | null
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          id?: string
+          name: string
+          phone: string
+          status?: string | null
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          id?: string
+          name?: string
+          phone?: string
+          status?: string | null
         }
         Relationships: []
       }
@@ -308,6 +398,44 @@ export type Database = {
           website?: string | null
         }
         Relationships: []
+      }
+      transfer_news: {
+        Row: {
+          content: string
+          created_at: string | null
+          id: string
+          published_at: string | null
+          source_id: string | null
+          title: string
+          url: string
+        }
+        Insert: {
+          content: string
+          created_at?: string | null
+          id?: string
+          published_at?: string | null
+          source_id?: string | null
+          title: string
+          url: string
+        }
+        Update: {
+          content?: string
+          created_at?: string | null
+          id?: string
+          published_at?: string | null
+          source_id?: string | null
+          title?: string
+          url?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "transfer_news_source_id_fkey"
+            columns: ["source_id"]
+            isOneToOne: false
+            referencedRelation: "news_sources"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       transfers: {
         Row: {
