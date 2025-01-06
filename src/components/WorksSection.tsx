@@ -30,7 +30,7 @@ const WorksSection = () => {
         <Link to="/vanishing-emails" className="group">
           <div className="relative aspect-[4/3] mb-4 overflow-hidden">
             <img 
-              src="/lovable-uploads/b75fc07d-3d4e-4914-bf6b-e4abbe80cd87.png"
+              src="/lovable-uploads/80292e6c-735d-4b8a-8d7b-60cbbc894f34.png"
               alt="Vanishing Emails Project"
               className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
             />
